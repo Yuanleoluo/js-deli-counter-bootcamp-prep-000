@@ -21,7 +21,7 @@ function currentLine(a){
       if (i ===0 ){
         a[i]= i+1 + ". " + a[i]
       } else {
-        a[i]= ` ${i+1}. a[i]`
+        a[i]= ` ${i+1}. ${a[i]}`
       }
     }
 
